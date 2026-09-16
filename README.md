@@ -1,5 +1,10 @@
 # 轻记 · 四码笔记
 
+![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
+![Platform: Windows](https://img.shields.io/badge/platform-Windows-111111)
+![Tauri](https://img.shields.io/badge/Tauri-2-24C8DB)
+![Zero dependencies](https://img.shields.io/badge/runtime%20deps-0-111111)
+
 > 一款极简的 Windows 桌面笔记应用：四位 PIN 码锁屏，数据在本机加密存储，不联网、无账号、无遥测。
 
 界面黑白灰 + 毛玻璃（glassmorphism），单个 HTML 文件承载全部前端逻辑，零前端框架、零运行时依赖。
@@ -93,4 +98,6 @@ modified.md                   改动日志
 
 ## 授权
 
-仓库暂未附带开源许可证文件；如需他人复用，请先补 `LICENSE`。
+[MIT](LICENSE) © 2026 Light Notes —— 可自由使用、修改、分发、商用，只需保留版权与许可声明；软件按「原样」提供，不含任何担保。
+
+> 第三方组件：Tauri 本体为 MIT / Apache-2.0 双许可；`node_modules` 中的 `@tauri-apps/cli` 与 `serve` 均为构建期开发依赖，不随安装包分发。
