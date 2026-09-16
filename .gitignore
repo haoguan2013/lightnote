@@ -1,0 +1,18 @@
+# 依赖
+node_modules/
+
+# 打包前生成的前端资源（tauri 内嵌目录）
+dist/
+
+# Rust 构建产物
+src-tauri/target/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# 系统文件
+.DS_Store
+Thumbs.db
